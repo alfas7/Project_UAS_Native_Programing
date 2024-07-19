@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradien"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/edit_namastatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nama_petugas" />
+
+    <EditText
+        android:id="@+id/edit_keterangan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Jabatan" />
+
+
+    <EditText
+        android:id="@+id/edit_no_telepon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="No_telepon" />
+
+    <Button
+        android:id="@+id/btn_edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#172E4B"
+        android:text="Edit"
+        android:textColorLink="#172E4B" />
+</LinearLayout>

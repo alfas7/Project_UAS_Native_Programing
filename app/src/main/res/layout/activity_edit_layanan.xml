@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradien"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/edit_namalayanan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nama Layanan"
+        android:textColor="#000000"
+        android:textColorHint="#000000" />
+
+    <EditText
+        android:id="@+id/edit_deskripsi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="deskripsi"
+        android:textColor="#000000"
+        android:textColorHint="#000000" />
+
+
+    <EditText
+        android:id="@+id/edit_harga"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="harga"
+        android:textColor="#000000"
+        android:textColorHint="#000000" />
+
+    <EditText
+        android:id="@+id/edit_durasi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="durasi"
+        android:textColor="#000000"
+        android:textColorHint="#000000" />
+
+    <Button
+        android:id="@+id/btn_edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#172E4B"
+        android:text="Edit"
+        android:textColor="#FFFFFF"
+        android:textColorLink="#172E4B" />
+</LinearLayout>

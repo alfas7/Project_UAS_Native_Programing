@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradien"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/edit_namalayanan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nama Layanan" />
+
+    <EditText
+        android:id="@+id/edit_namalayanan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="deskripsi" />
+
+
+    <EditText
+        android:id="@+id/edit_deskripsi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="harga" />
+
+    <EditText
+        android:id="@+id/edit_harga"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="durasi" />
+
+    <Button
+        android:id="@+id/btn_edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#172E4B"
+        android:text="Edit"
+        android:textColorLink="#172E4B" />
+</LinearLayout>

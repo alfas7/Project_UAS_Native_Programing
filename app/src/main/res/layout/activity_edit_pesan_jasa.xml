@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradien"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="Silahkan Edit Pesan Jasa"
+        android:textColor="#2B261C"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="144dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imageView18"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/laundry" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Spinner
+            android:id="@+id/edit_petugas2"
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:background="@drawable/shape2"
+            android:hint="Nama Petugas" />
+
+        <Spinner
+            android:id="@+id/edit_pelanggan2"
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:background="@drawable/shape2"
+            android:hint="Nama Pelanggan" />
+
+        <Spinner
+            android:id="@+id/edit_layanan2"
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:background="@drawable/shape2"
+            android:hint="Nama Layanan" />
+
+        <Spinner
+            android:id="@+id/edit_kain2"
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:background="@drawable/shape2"
+            android:hint="Nama Kain" />
+
+        <EditText
+            android:id="@+id/edit_tanggalpesan2"
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:background="@drawable/shape2"
+            android:hint="Tanggal Pesan"
+            android:textColor="#090909" />
+
+        <EditText
+            android:id="@+id/edit_tanggalambil2"
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:background="@drawable/shape2"
+            android:hint="Tanggal Ambil"
+            android:textColor="#050505" />
+
+        <EditText
+            android:id="@+id/edit_jumlah2"
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:background="@drawable/shape2"
+            android:hint="Jumlah"
+            android:textColor="#020202" />
+
+        <EditText
+            android:id="@+id/edit_status2"
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:background="@drawable/shape2"
+            android:hint="Status"
+            android:textColor="#020202" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="match_parent"
+        android:layout_height="34dp" />
+
+    <Button
+        android:id="@+id/btn_edit_pesan_jasa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#1F0057"
+        android:text="Edit Pesan jasa"
+        android:textColor="#FFFFFF" />
+</LinearLayout>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradien"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="Silahkan Edit Pembayaran"
+        android:textColor="#2B261C"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="144dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imageView18"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/laundry" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Spinner
+            android:id="@+id/edit_pesan_jasa5"
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:background="@drawable/shape2"
+            android:hint="Id Pesan" />
+
+        <Spinner
+            android:id="@+id/edit_pelanggan5"
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:background="@drawable/shape2"
+            android:hint="Nama Pelanggan" />
+
+
+        <EditText
+            android:id="@+id/edit_jumlahbayar5"
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:background="@drawable/shape2"
+            android:hint="Jumlah Bayar"
+            android:textColor="#0F0F0F" />
+
+        <EditText
+            android:id="@+id/edit_metodebayar5"
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:background="@drawable/shape2"
+            android:hint="Metode Pembayaran"
+            android:textColor="#0F0E0E" />
+
+        <EditText
+            android:id="@+id/edit_tanggalbayar5"
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:background="@drawable/shape2"
+            android:hint="Tanggal Bayar"
+            android:textColor="#0B0B0B" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="match_parent"
+        android:layout_height="34dp" />
+    <Button
+        android:id="@+id/btn_edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Edit" >
+    </Button>
+
+
+</LinearLayout>
